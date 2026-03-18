@@ -10,13 +10,13 @@ User Input → Injection Detection → Presidio PII Analysis → Policy Decision
 
 ## Features
 
-- **Prompt-injection detection** weighted regex patterns with configurable threshold
-- **PII detection** Microsoft Presidio with 3 custom recognizers (API key, Employee ID, Pakistani phone)
-- **Context-aware scoring** confidence boosted when sensitive keywords appear nearby
-- **Composite entity detection** raises `IDENTITY_BUNDLE` when name + phone co-occur
-- **Confidence calibration** scores clamped to `[0, 1]` and filtered by threshold
-- **Policy engine** ALLOW / MASK / BLOCK decision with clear priority rules
-- **Latency measurement** full pipeline timing in milliseconds
+- **Prompt-injection detection**: weighted regex patterns with configurable threshold
+- **PII detection**: Microsoft Presidio with 3 custom recognizers (API key, Employee ID, Pakistani phone)
+- **Context-aware scoring**: confidence boosted when sensitive keywords appear nearby
+- **Composite entity detection**: raises `IDENTITY_BUNDLE` when name + phone co-occur
+- **Confidence calibration**: scores clamped to `[0, 1]` and filtered by threshold
+- **Policy engine**: ALLOW / MASK / BLOCK decision with clear priority rules
+- **Latency measurement**: full pipeline timing in milliseconds
 
 ---
 
