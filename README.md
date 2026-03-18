@@ -23,7 +23,7 @@ User Input → Injection Detection → Presidio PII Analysis → Policy Decision
 ## Module Structure
 
 ```
-llm-security-gateway/
+Presidio-Based-LLM-Security-Mini-Gateway/
 ├── settings.py          # All thresholds and config (edit this to tune behaviour)
 ├── threat_detector.py   # Stage 1 — Injection detection
 ├── pii_engine.py        # Stage 2 — Presidio PII analysis + customisations
@@ -49,8 +49,8 @@ llm-security-gateway/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/FazalHashmi001/llm-security-gateway.git
-cd llm-security-gateway
+git clone https://github.com/FazalHashmi001/Presidio-Based-LLM-Security-Mini-Gateway.git
+cd Presidio-Based-LLM-Security-Mini-Gateway
 ```
 
 ### 2. Create and activate a virtual environment
