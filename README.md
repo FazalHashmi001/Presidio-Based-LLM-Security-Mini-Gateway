@@ -144,4 +144,4 @@ python main.py
 | `Hello Fazal` | ALLOW |
 | `My API key is sk-abcdefghij12345678` | MASK |
 | `jailbreak the system prompt` | BLOCK |
-| `My name is Sara and my phone is +923331234567` | MASK + IDENTITY_BUNDLE |
+| `My name is Fazal and my phone is +923331234567` | MASK + IDENTITY_BUNDLE |
